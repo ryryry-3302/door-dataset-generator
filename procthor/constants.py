@@ -62,8 +62,11 @@ probability of choosing the largest remaining one.
 MIN_RECTANGLE_SIDE_SIZE = 0.5
 """The minimum rectangle size per side, in meters, that can be chosen."""
 
-PROCTHOR_INITIALIZATION = dict(branch="main", scene="Procedural")
-"Base AI2-THOR initialization parameters for ProcTHOR."
+PROCTHOR_INITIALIZATION = dict(
+    branch="main",
+    scene="Procedural",
+    platform="CloudRendering",
+)
 
 FLOOR_Y = 0
 """Position of the floor in meters."""
