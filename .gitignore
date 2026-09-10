@@ -136,4 +136,4 @@ dmypy.json
 .pyre/
 *.png
 temp.json
-doorway_dataset/
+#doorway_dataset/
